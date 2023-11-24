@@ -43,7 +43,7 @@ def parse_args():
         "--lc", default="violet", type=str, help="Line color (hex code or colorname)"
     )
     parser.add_argument(
-        "-o", "--output", default="hilbert_outp.png", type=str, help="Output filenam"
+        "-o", "--output", default="hilbert_outp.png", type=str, help="Output filename"
     )
 
     return parser.parse_args()
