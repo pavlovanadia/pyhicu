@@ -110,3 +110,4 @@ if __name__ == "__main__":
     outp = args.output
 
     hilbert_vis(it=iteration, fs=figside, dc=dotcol, lc=linecol, filename=outp)
+
