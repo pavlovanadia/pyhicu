@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 import argparse
-
-import numpy as np
 from itertools import product
 
+import numpy as np
 import matplotlib.pyplot as plt
 
 
@@ -103,11 +102,6 @@ def hilbert_vis(it, fs, dc, lc, filename):
 
 if __name__ == "__main__":
     args = parse_args()
-    iteration = args.iteration
-    figside = args.fs
-    dotcol = args.dc
-    linecol = args.lc
-    outp = args.output
 
-    hilbert_vis(it=iteration, fs=figside, dc=dotcol, lc=linecol, filename=outp)
+    hilbert_vis(it=args.iteration, fs=args.fs, dc=args.dc, lc=args.lc, filename=args.output)
 
